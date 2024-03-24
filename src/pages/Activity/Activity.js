@@ -1,8 +1,8 @@
 import React from "react";
 
-import backgroundImage from "../../assets/activity.jpg";
+import backgroundImage from "../../assets/ActivityPictures/activity.jpg";
 
-import stOmer from "../../assets/Activity/st_omer.jpg";
+import stOmer from "../../assets/ActivityPictures/st_omer.jpg";
 
 export default function Activity() {
     return (
