@@ -2,6 +2,8 @@ import React from "react";
 
 import backgroundImage from "../../assets/activity.jpg";
 
+import stOmer from "../../assets/Activity/st_omer.jpg";
+
 export default function Activity() {
     return (
       <div className="bg-white" style={{ marginTop: '3.75rem' }}>
@@ -42,32 +44,46 @@ export default function Activity() {
                 </div>
             </div>
             <div className="w-full md:w-1/2 p-4">
-              <h4 className="font-semibold mt-2">Les richesses de notre région</h4>
-              <p className="text-gray-700 mt-1">Le bassin Minier...</p>
+              <h1 className="text-xl">Les richesses de notre région</h1>
+              <p className="text-primary-2">Le bassin Minier du Nord-Pas-de-Calais : classé à l'Unesco en 2012.</p>
+              <p className="text-primary-2">Le site des Caps et Marais d'Opale : fut le premier classé en 2011 "Grand Site National".</p>
             </div>
           </div>
 
-          <div className="flex flex-wrap -mx-4 mb-8 items-center">
+          <div className="flex justify-center mt-10 mb-10">
+            <hr className="border-1 border-white w-full max-w-xl my-2"/>
+          </div>
+
+          <div className="flex flex-wrap -mx-4 mt-8 mb-8 items-center">
             <div className="w-full md:w-1/2 p-4">
-              <h4 className="font-semibold mt-2">Les marchés</h4>
-              <p className="text-gray-700 mt-1">...</p>
+              <h1 className="text-xl">Les marchés</h1>
+              <p className="text-primary-2">Lumbres : le mercredi et le vendredi matin, de 8h à 13h place Jean Jaurès.</p>
+              <p className="text-primary-2">Audruicq : le mercredi matin au centre ville.</p>
+              <p className="text-primary-2">Saint Omer : le mercredi matin de 8h à 13h place Perpignan.</p>
+              <p className="text-primary-2">Vaudringhem : le jeudi de 16h à 19h rue de l'église.</p>
             </div>
+            <div className="w-full md:w-1/2 p-4">
+              <div className="h-48 bg-gray-200 flex justify-center items-center">
+                <img src={stOmer} alt={`marché`} className="w-full h-auto z-20" />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-center mt-10 mb-10">
+            <hr className="border-1 border-white w-full max-w-xl my-2"/>
+          </div>
+
+          <div className="flex flex-wrap -mx-4 mt-8 mb-8 items-center">
             <div className="w-full md:w-1/2 p-4">
               <div className="h-48 bg-gray-200 flex justify-center items-center">
                 <span>Photo de l'activité</span>
               </div>
             </div>
-          </div>
-
-          <div className="flex flex-wrap -mx-4 mb-8 items-center">
             <div className="w-full md:w-1/2 p-4">
-              <div className="h-48 bg-gray-200 flex justify-center items-center">
-                <span>Photo de l'activité</span>
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 p-4">
-              <h4 className="font-semibold mt-2">Offices de tourisme</h4>
-              <p className="text-gray-700 mt-1">...</p>
+              <h1 className="text-xl">Offices de tourisme</h1>
+              <p className="text-primary-2">Aire-sur-la-Lys : +33 3 21 39 65 66</p>
+              <p className="text-primary-2">Lumbres : +33 3 21 93 45 46</p>
+              <p className="text-primary-2">Boulogne-sur-Mer : +33 3 21 10 88 10</p>
             </div>
           </div>
         </div>
