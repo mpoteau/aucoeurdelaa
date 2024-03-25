@@ -26,7 +26,7 @@ export default function About() {
         <div className="w-3/4 mx-auto flex items-center justify-between mb-32">
           <div>
             <h1 className="text-xl">Qui sommes nous ?</h1>
-            <p className="text-primary-2">Découvrez notre famille ! Passionnées par la nature et amateurs de plein air, nous sommes également des adeptes de la course à pied<br/>et de la randonnée. Nous nous ferons une joie de vous partager nos circuits favoris, vous permettant d'explorer les sentiers de notre belle région.<br/>Notre gîte est plus qu'un simple lieu de séjour ; c'est une invitation à vivre des moments authentiques entourés de nature.</p>
+            <p className="text-primary-2">Découvrez notre famille ! Passionnées par la nature et amateurs de plein air, nous sommes également<br/>des adeptes de la course à pied et de la randonnée. Nous nous ferons une joie de vous partager nos circuits favoris,<br/>vous permettant d'explorer les sentiers de notre belle région. Notre gîte est plus qu'un simple lieu de séjour ;<br/>c'est une invitation à vivre des moments authentiques entourés de nature.</p>
           </div>
           <div className="flex-shrink-0">
             <img src={Family} alt="Notre Famille" className="w-60 h-60 object-cover rounded-full"/>
